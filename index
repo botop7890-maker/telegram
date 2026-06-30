@@ -1,0 +1,129 @@
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Trading Community | Join Now</title>
+<style>
+  :root{
+    --bg1:#0f172a;
+    --bg2:#1e293b;
+    --accent:#22d3ee;
+    --accent2:#38bdf8;
+    --text:#f8fafc;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Roboto,Arial,sans-serif;}
+  body{
+    background:radial-gradient(1200px 800px at 80% -10%, #1e3a8a22, transparent),
+               linear-gradient(180deg,var(--bg1),var(--bg2));
+    color:var(--text);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+  }
+  .card{
+    width:100%;
+    max-width:420px;
+    background:#0b1220cc;
+    border:1px solid #334155;
+    border-radius:24px;
+    padding:28px 22px;
+    text-align:center;
+    box-shadow:0 20px 40px #00060;
+    backdrop-filter: blur(8px);
+  }
+  .badge{
+    display:inline-block;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:.5px;
+    background:linear-gradient(90deg,var(--accent),var(--accent2));
+    color:#001018;
+    padding:6px 12px;
+    border-radius:999px;
+    margin-bottom:14px;
+  }
+  h1{
+    font-size:28px;
+    line-height:1.2;
+    margin-bottom:10px;
+  }
+  h1 span{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+  p{
+    font-size:15px;
+    color:#cbd5e1;
+    margin-bottom:22px;
+  }
+  ul{
+    list-style:none;
+    text-align:left;
+    margin:0 auto 24px;
+    max-width:320px;
+  }
+  ul li{
+    font-size:14px;
+    padding:8px 0 8px 28px;
+    position:relative;
+    color:#e2e8f0;
+  }
+  ul li::before{
+    content:"✓";
+    position:absolute;
+    left:0;top:8px;
+    width:20px;height:20px;
+    border-radius:50%;
+    background:#22d3ee22;
+    color:var(--accent);
+    display:grid;place-items:center;
+    font-weight:900;
+  }
+  .btn{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    width:100%;
+    padding:16px 18px;
+    border-radius:16px;
+    border:0;
+    background:linear-gradient(90deg,var(--accent),var(--accent2));
+    color:#001018;
+    font-weight:800;
+    font-size:16px;
+    text-decoration:none;
+    box-shadow:0 10px 20px #22d3ee40;
+    transition:.2s transform;
+  }
+  .btn:active{transform:scale(0.97);}
+  .note{
+    font-size:12px;
+    color:#94a3b8;
+    margin-top:12px;
+  }
+  .telegram-icon{
+    width:22px;height:22px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">100% FREE COMMUNITY</div>
+    <h1>Join My <span>Free Telegram</span> Community</h1>
+    <p>No paid signals. No course. Only Real Trading Truth, Setups & Mindset.</p>
+
+    <ul>
+      <li>Daily Market Analysis</li>
+      <li>Risk Management Rules</li>
+      <li>Propfirm + Order Flow Content</li>
+      <li>Direct Access To Me</li>
+    </ul>
+
+    <a class="btn" href="https://t.me/+--d28Xx6vpphNTY9" target="_blank" rel="noopener">
+      <svg class="telegram-icon" viewBox="0 0 240 240" fill="currentColor">
+        <circle cx="120" cy="120" r="120" fill="#229ED9"/>
+        <path d="M185.8 80.2l-23.5 110.8c-1.8 12.6-6.5 15.7-13.2 9.8l-36.5-26.9-17.6 16.9c-2 1.9-3.6 3.6-7.4 3.6l2.6-37.2 67.6-61.1c2.9-2.6-.7-4-4.5-1.4l-83.7 52.7-36-11.3c-7.8-2.4-8-7.8 1.6-11.6l140.7-54.2c6.5-2.4 12.2 1.5 10.1 11.4z" fill="#fff"/>
+      </svg>
+      Join Telegram Now
+    </a>
+    <p class="note">1 Click. Direct Join. No Spam.</p>
+  </div>
+</body>
+</html>
